@@ -21,10 +21,12 @@ nav .logo{
    margin-right: 120px;
    font-weight: bold;
    color: white;
-
-
-
-
+}
+header nav li:hover{
+    background-color:lightgrey ;
+}
+header nav li{
+    padding: 10px 12px;
 }
  nav ul{
     list-style: none;
@@ -207,14 +209,39 @@ font-size: 16px;
 }
 
 
-footer{
-   background-color: darkblue;
 
+  footer ul{
+    margin-bottom: 100px;
+  }  
+  footer li:hover{
+    background-color: azure;
+
+  }
+    
+footer li{
+    text-align: end;
+    margin-right: 50px;
+    color: azure;
+    padding: 8px 10px;
+    
+    
+    padding: 8px 10px 10px 8px;
+    
 }
-footer .contener{
-    width: 1360px;
-    margin: auto;
-    display: flex;
-    justify-content:center;
-
+footer h5{
+    text-align: end;
+    margin-right: 50px;
+    color: beige;
+   
+}
+footer{
+    background-color: darkblue;
+}
+.footer-content .logo{
+    padding: 60px 100px ;
+}
+.bottom-bar{
+    color: azure;
+    text-align: center;
+    margin-bottom: 20px;
 }
