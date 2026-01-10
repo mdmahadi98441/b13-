@@ -1,4 +1,6 @@
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -74,6 +76,7 @@ header nav li{
     border-radius: 20px;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
 
  }
  .top h1{
@@ -83,6 +86,7 @@ header nav li{
     width: 770px;
     height: 168px;
     margin-top: 200px;
+    
 
  }
  .cc{
@@ -91,6 +95,7 @@ header nav li{
  .hero-content p{
     line-weight: 24;
     font-size: 18px;
+    padding-top: 30px;
  }
  .button-group{
     display: flex;
@@ -107,6 +112,12 @@ header nav li{
     border: none;
     border-radius: 3px;
     font-size: 16px;
+    font-weight: bold;
+ }
+ .button-group .green:hover{
+    color: #30b868;
+    background-color: antiquewhite;
+
  }
  .button-group .no-color{
 color: white;
@@ -117,7 +128,11 @@ border: 1px solid gray;
 background-color:rgba(255, 255, 255, 0.1);
 border-radius:3px;
 font-size: 16px;
-
+font-weight: bold;
+ }
+ .button-group .no-color:hover{
+background-color: #627382;
+color: #30b868;
  }
  /*banner is up*/
 
@@ -158,6 +173,10 @@ font-size: 16px;
     
 
 }
+
+.skill-box .skill-card:hover{
+background-color: rgb(230, 226, 226);
+}
 .skill-card img{
     max-width: 60px;
     margin-bottom: 10px;
@@ -180,7 +199,7 @@ font-size: 16px;
     color: #627382;
     text-align: center;
 }
-
+/* part3 is up */
 .fast-box{
     display: flex;
     width: 1600px;
@@ -216,6 +235,7 @@ font-size: 16px;
     margin-top: 16px;
     color: #627382;
 }
+/* footer is dune */
 footer{
    max-width:1600px;
    max-height: 348px;
@@ -255,3 +275,43 @@ footer ul{
     margin-top: 100px;
     color: white;
   }
+  /* chelleng part weited is last */
+  .the-end{
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+    max-height: 840px;
+  }
+  .the-end .worng-contener{
+    width: 1360px;
+    height:384px;
+    background-color: #f7f6f2;
+    margin: auto;
+    margin-bottom: 120px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .the-end .worng-contener h1{
+    padding-top: 60px;
+
+  }
+  .the-end .worng-contener p{
+    font-size: 16px;
+    color: #627382;
+    padding-top: 15px;
+  }
+.the-end .worng-contener button{
+    height: 52px;
+    width: 194px;
+    border: none;
+    background-color: #30b868;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px lightgray;
+    color: #f7f6f2;
+}
+.the-end .worng-contener button:hover{
+    background-color: #f7f6f2;
+    color: #30b868;
+}
